@@ -1,2 +1,6 @@
-let age = BigInt("12345");
-let name=Symbol("jdfjk()");
+const student={
+    name:"Manasa T",
+    age:18,
+    CGPA:8.5,
+    isPass:true,
+};
