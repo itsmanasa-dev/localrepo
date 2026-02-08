@@ -1,3 +1,4 @@
-console.log("the life is hell")
-console.log("Manasa T")
-age=24
+const age=24;
+age=96;
+   
+console.log(age)
