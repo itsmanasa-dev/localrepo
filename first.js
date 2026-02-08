@@ -1,4 +1,2 @@
-const age=24;
-age=96;
-   
-console.log(age)
+let age = BigInt("12345");
+let name=Symbol("jdfjk()");
