@@ -1,6 +1,8 @@
-const student={
-    name:"Manasa T",
-    age:18,
-    CGPA:8.5,
-    isPass:true,
+const product={
+    name:"Ball pen",
+    rating:4,
+    offer:5,
+    price:300,
 };
+
+console.log(product);
