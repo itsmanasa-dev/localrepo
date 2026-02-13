@@ -1,13 +1,7 @@
-const expr = "Papayas";
-switch (expr) {
-  case "Oranges":
-    console.log("Oranges are $0.59 a pound.");
-    break;
-  case "Mangoes":
-  case "Papayas":
-    console.log("Mangoes and papayas are $2.79 a pound.");
-    // Expected output: "Mangoes and papayas are $2.79 a pound."
-    break;
-  default:
-    console.log(`Sorry, we are out of ${expr}.`);
+let num=prompt("Enter a number");
+console.log(num);
+if (num%5==0){
+    console.log("Divisible by 5");
+} else{
+    console.log("NOt divisible by 5");
 }
