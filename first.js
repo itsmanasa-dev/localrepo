@@ -1,6 +1,9 @@
-let age=18;
+let age=98;
 if (age>=18){
     console.log("Elligible to vote");
-}else {
-    console.log("Not elligible")
+}else if (age >70){
+    console.log("Senior citizen");
+}else{
+ console.log("Not elligible")
 }
+    
