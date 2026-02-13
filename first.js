@@ -1,13 +1,15 @@
 let marks=prompt("Enter the marks");
+let grade;
 if (marks>=80 && marks<=100){
-    console.log("Grade A");
+    grade="A";
 } else if (marks>=70 && marks<=89){
-    console.log(marks,"Grade B"); }
+    grade="B"; }
 else if (marks>=60 && marks<=69) {
-    console.log(marks,"Grade C");
+    grade="C";
 }else if (marks>=50 && marks<=59) {
-    console.log(marks,"Grade D");
+    grade="D";;
 }else{
-    console.log(marks,"Grade F")
+    grade="F";
 }
 
+console.log("According to the score the grade is:",grade);
