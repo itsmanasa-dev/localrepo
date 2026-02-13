@@ -1,5 +1,4 @@
-//arthimrtic operators
-
-let a=9;
-a++;
-console.log(a);
+let age=18;
+if (age>=18){
+    console.log("Elligible to vote");
+}
