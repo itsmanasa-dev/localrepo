@@ -1,9 +1,7 @@
-let student={
-    student:"MAnasa",
-    age:"18",
-    cgpa:9.0,
-    istrue:true
-};
-for(let i in student){
-    console.log(i);
+let gameNum=25;
+let userNum=prompt("Guess the number");
+while(userNum!=gameNum){
+    let userNum=prompt("you entered wrong number,enter again");
+
 }
+console.log("Congratulations you have guessed the Number");
