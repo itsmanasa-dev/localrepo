@@ -1,7 +1,9 @@
-let str="manasa";
-let size=0;
-for (let i of str ){
+let student={
+    student:"MAnasa",
+    age:"18",
+    cgpa:9.0,
+    istrue:true
+};
+for(let i in student){
     console.log(i);
-    size++;
 }
-console.log("string size",size);
