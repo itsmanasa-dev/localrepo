@@ -1,5 +1,4 @@
-let i=1;
-while(i<=5){
+let str="manasa";
+for (let i of str ){
     console.log(i);
-    i++;
 }
