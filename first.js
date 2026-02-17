@@ -1,2 +1,2 @@
-let str="           abc an rt yu";
-console.log(str.trim())
+let str="hello";
+console.log(str.replace("h","y"));
