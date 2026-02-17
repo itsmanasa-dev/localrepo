@@ -1,6 +1,2 @@
-let obj={
-    pen:"Ball pen",
-    price:10,
-};
-let output=`the cost of item ${obj.pen} \n is ${obj.price} rupees`;
-console.log(output);
+let str="           abc an rt yu";
+console.log(str.trim())
