@@ -1,2 +1,2 @@
 let str="hello";
-console.log(str.replace("h","y"));
+console.log(str.charAt(3));
