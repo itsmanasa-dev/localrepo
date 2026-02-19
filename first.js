@@ -1,4 +1,2 @@
-let fullName=prompt("Enter your FullName");
-
-let userName="@"+fullName+fullName.length;
-console.log(userName)
+let arr=[23,45,67];
+console.log(arr);
