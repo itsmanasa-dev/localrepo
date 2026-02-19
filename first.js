@@ -1,2 +1,4 @@
-let arr=[23,45,67];
-console.log(arr);
+let arr=["a","S","h","d"];
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
