@@ -1,8 +1,11 @@
-let items=[100,200,300,400];
-let ind=0;
-for (let val of items){
-    console.log(`value at index ${ind}=${val}`);
-    let offer=val/10;
-    items[ind]+=offer;
-    console.log(`value after offer applied=${offer}`);
-}
+let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+
+companies.shift();
+console.log(companies);
+
+companies.splice(1,1,"Ola");
+console.log(companies);
+
+companies.push("Amazon");
+console.log(companies);
+
