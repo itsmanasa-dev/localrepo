@@ -1,8 +1,8 @@
-let arr=[87,97,44,37,76,60]
-let sum=0;
-for(let val of arr){
-    sum+=val;
+let items=[100,200,300,400];
+let ind=0;
+for (let val of items){
+    console.log(`value at index ${ind}=${val}`);
+    let offer=val/10;
+    items[ind]+=offer;
+    console.log(`value after offer applied=${offer}`);
 }
-let avg=sum/arr.length;
-console.log(`Sum of the marks=${sum}`);
-console.log(`Average marks of the class=${avg}`);
